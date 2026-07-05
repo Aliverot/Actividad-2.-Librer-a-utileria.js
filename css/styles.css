@@ -143,3 +143,16 @@ input:focus {
     margin-bottom: 25px;
     color: var(--color-texto);
 }
+
+@media (max-width: 600px) {
+    /* Quitamos el padding excesivo del body para aprovechar espacio en celular */
+    body {
+        padding: 20px 15px;
+    }
+
+    /* Rompemos las dos columnas para que las contraseñas queden una debajo de la otra */
+    .grupo-doble {
+        grid-template-columns: 1fr; 
+        gap: 0;
+    }
+}
