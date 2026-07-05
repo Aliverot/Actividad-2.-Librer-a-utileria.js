@@ -121,7 +121,7 @@ function formatearTelefono(numero) {
 A continuacion se evidencia el funcionamiento de la libreria mostrando los resultados directamente en la consola del navegador, asi como su comportamiento en la interfaz grafica.
 
 ### Pruebas en consola
-Salida obtenida al ejecutar las pruebas de validacion (correo, contrasena, edad y formateo) mediante console.log.
+Salida obtenida al ejecutar las pruebas de validacion (correo, contraseña, edad y formateo) mediante console.log.
 
 ![Resultados de consola](img/captura1.png)
 
